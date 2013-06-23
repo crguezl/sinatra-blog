@@ -2,10 +2,12 @@
 require "sinatra"
 require "sinatra/activerecord"
 
-############## data base
+############## the model: data base
 set :database, "sqlite3:///blog.db"
 
 class Post < ActiveRecord::Base
+  validates :title, presence: true, length: { minimum: 3 }
+  validates :body, presence: true
 end
 
 ############# helpers
