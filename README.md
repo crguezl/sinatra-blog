@@ -1,7 +1,14 @@
 # A Simple Blog with Sinatra and Active Record ( + some useful tools)
-[See Dan Neumann blog](http://danneu.com/posts/15-a-simple-blog-with-sinatra-and-active-record-some-useful-tools/)
 
+## Goal
 We'll be making a blog using Sinatra. 
+
+## See
+* [Dan Neumann blog](http://danneu.com/posts/15-a-simple-blog-with-sinatra-and-active-record-some-useful-tools/)
+* [GitHub repo](https://github.com/crguezl/sinatra-blog)
+
+## Features
+
 It includes these features:
 
 * Migrations: the ability to apply and rollback changes to our database (like creating our table of posts).
@@ -15,6 +22,7 @@ It includes these features:
 * MVC pattern
 * Validations on our posts
 
+## Gems Used
 We'll use the following gems (see Gemfile):
 
 * sinatra: the framework
