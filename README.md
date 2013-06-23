@@ -14,3 +14,12 @@ It includes these features:
 * Layouts, partial templates, and regular templates.
 * MVC pattern
 * Validations on our posts
+
+We'll use the following gems (see Gemfile):
+
+* sinatra: the framework
+* sqlite3: the database
+* activerecord: the interface to our database
+* sinatra-activerecord: a bridge that lets us use Active Record
+* shotgun: a development server that reloads our app code on each request so we don't need to restart the server to see our changes.
+* tux: a console that lets us run Ruby code in the environment of our app/database.
